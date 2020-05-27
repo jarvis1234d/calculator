@@ -25,6 +25,12 @@
 #equal{
     padding: 6px 61px;
 }
+#multiply{
+    padding: 6px 14px;
+}
+#divide{
+    padding: 6px 15px;
+}
 .display{
     color: #fff;
     width: 150px;
