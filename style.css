@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-around;
     height: 100vh;
+    background: #E0E0E0;
 }
 .flex-container{
     margin:10px 10px;
@@ -17,7 +18,7 @@
     max-width: 150px;
 }
 #ac{
-    padding: 6px 30px;
+    padding: 6px 31px;
 }
 #minus{
     padding: 6px 14px;
@@ -31,9 +32,13 @@
 #divide{
     padding: 6px 15px;
 }
+.tall{
+    padding-top: 13px !important;
+    padding-bottom:13px !important;
+}
 .display{
     color: #fff;
-    width: 150px;
+    width: 313px;
     height:40px;
     min-height:40px;
     border-radius: 5px;
@@ -48,7 +53,18 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 389px;
+    height: 255px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background: #E0E0E0;
+    border-radius: 12px;
+    border-top: 1px solid #b8b8b8;
+}
+.attention{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 .button{
     margin:5px;
