@@ -1,0 +1,60 @@
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+.flex-container{
+    margin:10px 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding:5px 0px;
+    max-width: 150px;
+}
+#back{
+    padding: 6px 30px;
+}
+#minus{
+    padding: 6px 14px;
+}
+#equal{
+    padding: 6px 61px;
+}
+.display{
+    color: #fff;
+    width: 150px;
+    height:40px;
+    min-height:40px;
+    border-radius: 5px;
+    padding: 8px 4px;
+    
+}
+.output{
+    float: right;
+}
+.kiki{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 389px;
+}
+.button{
+    margin:5px;
+    border: none;
+}
+.button:hover{
+    box-shadow: none;
+}
+a {
+    color: #fff;
+    text-decoration: none !important;
+}
+a:hover{
+    color: #fff;
+}
