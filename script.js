@@ -8,11 +8,16 @@ $(document).ready(function () {
         $(e.currentTarget).addClass('shadow');
         // $('div').addClass('shadow');
     });
-    $('button').on("click", function (e) {
-        var pre = $('.output').text()
-        var value = $(e.currentTarget).text()
 
-        if (value == "AC") {
+    $('button').on("click", function (e) {
+        var pre = $('.output').text();
+        var value = $(e.currentTarget).text();
+        if (value == "=") {
+            var equation = $('.output').text();
+            var result = eval(equation);
+            $('.output').text(result);
+
+        } else if (value == "AC") {
             $('.output').text(0);
         } else {
             if (pre == 0) {
